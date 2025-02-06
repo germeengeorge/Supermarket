@@ -1,0 +1,116 @@
+﻿@page
+@using Supermarket.RolesAndEmailSender
+@model RegisterModel
+
+<section class="vh-100" style="background-color: white;">
+    <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-12 col-xl-11">
+                <div class="card text-black" style="border-radius: 25px;">
+                    <div class="card-body p-md-5">
+                        <div class="row justify-content-center">
+                            <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Register</p>
+
+                                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                                      <div asp-validation-summary="ModelOnly" class="text-danger"></div>  
+                                    <!-- Name -->
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                        <div class="flex-fill">
+                                            <input asp-for="Input.Name" class="form-control mt-1" placeholder="Name" aria-required="true" />
+                                            <span asp-validation-for="Input.Name" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Email -->
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                        <div class="flex-fill">
+                                            <input asp-for="Input.Email" class="form-control mt-1" placeholder="Email" aria-required="true" />
+                                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Street Address -->
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fas fa-map-marker-alt fa-lg me-3 fa-fw"></i>
+                                        <div class="flex-fill">
+                                            <input asp-for="Input.StreetAdress" class="form-control mt-1" placeholder="Street Address" />
+                                            <span asp-validation-for="Input.StreetAdress" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- City -->
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fas fa-city fa-lg me-3 fa-fw"></i>
+                                        <div class="flex-fill">
+                                            <input asp-for="Input.City" class="form-control mt-1" placeholder="City" />
+                                            <span asp-validation-for="Input.City" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+
+                                     <!-- Phone Number -->
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fas fa-phone fa-lg me-3 fa-fw"></i>
+                                        <div class="flex-fill">
+                                            <input asp-for="Input.PhoneNumber" class="form-control mt-1" placeholder="Phone Number" />
+                                            <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Password -->
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                                        <div class="flex-fill">
+                                            <input asp-for="Input.Password" class="form-control mt-1" placeholder="Password" />
+                                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Confirm Password -->
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                                        <div class="flex-fill">
+                                            <input asp-for="Input.ConfirmPassword" class="form-control mt-1" placeholder="Confirm Password" />
+                                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    @if (User.IsInRole(SD.Role_Admin))
+                                    {
+                                        <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-award-fill fa-lg me-3 fa-fw"></i>
+                                            <div class="flex-fill">
+                                                <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-control mt-1">
+                                                    <option disabled selected>- Select Role -</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    }
+
+                                    <!-- Submit Button -->
+                                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                                        <button id="registerSubmit" type="submit" class="btn btn-primary btn-lg">Register</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                                     class="img-fluid" alt="Sample image" style="border-radius: 25px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

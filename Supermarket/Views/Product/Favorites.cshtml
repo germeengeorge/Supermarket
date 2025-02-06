@@ -1,0 +1,180 @@
+﻿@model List<Product>
+@using Supermarket.RolesAndEmailSender
+@{
+    ViewData["Title"] = "Favorites";
+}
+<div class="card border-0 my-4">
+    <div class="card-header bg-body bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-start">
+                <h2 class="text-dark py-2">My Favorites</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6">
+            </div>
+          
+        </div>
+        
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 pb-3 align-items-center">
+                @foreach (var product in Model)
+                {
+                    <div class="col">
+                        <div class="card border-0 p-3 border-5 rounded cardHover">
+                            <!-- Card Link -->
+                            <a asp-action="Details" asp-route-id="@product.Id" class="card-link text-decoration-none text-dark">
+                                @{
+                                    List<Category> categories = ViewBag.Categories as List<Category>;
+                                    string categoryName = "";
+                                    if (categories != null)
+                                    {
+                                        var category = categories.FirstOrDefault(c => c.id == product.CategoryId);
+                                        if (category != null)
+                                        {
+                                            categoryName = category.Name;
+                                        }
+                                    }
+                                }
+                                <img src="~/img/@product.imgURL" class="card-img-top rounded img-fluid" alt="@product.Name" style="aspect-ratio: 1 / 1; object-fit: contain; background-color: white;">
+
+                                <div class="mt-2 text-center">
+                                    <p class="card-title h6 text-dark opacity-75">@categoryName</p>
+                                </div>
+
+                                <div class="card-body pb-0 text-center">
+                                    <p class="card-title h5 text-uppercase">@product.Name</p>
+                                </div>
+                                <div class="card-body pb-0 text-center">
+                                    <p class="card-title h6" style="color:gray">@product.Description</p>
+                                </div>
+                                <div class="card-body pb-0 text-center">
+                                    <p class="card-title h6" style="color:darkorange"> EGP @product.price.ToString("F2")</p>
+                                </div>
+                            </a>
+
+
+                            <div class="container">
+                                <div class="row mt-3 mb-1 align-items-center justify-content-center">
+
+                                    @* <div class="col-4 p-1">
+                                        <input id="productQuantity-@product.Id" type="number" value="1" class="form-control text-center" min="1" />
+                                    </div> *@
+                                    <div class="col-4 px-1" style="width:inherit">
+                                        <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-success bg-gradient border-0 form-control d-flex align-items-center justify-content-center">
+                                            <i class="bi bi-cart2 me-2"></i>
+                                            Details
+                                        </a>
+                                    </div>
+                                    <div class="col-2 p-0 text-center border py-1 rounded">
+                                        <a href="javascript:void(0)" class="favourite-toggle" data-product-id="@product.Id">
+                                            <i class="bi @(product.IsFavorited ? "bi-heart-fill text-danger" : "bi-heart") h4"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                @if (User.IsInRole(SD.Role_Admin))
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-12">
+                                            <div class="btn-group w-100" role="group">
+                                                <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-success w-50">
+                                                    <i class="bi bi-pencil-square"></i> Edit
+                                                </a>
+                                                <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id" class="btn btn-outline-danger w-50">
+                                                    <i class="bi bi-trash-fill"></i> Delete
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .cardHover {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .cardHover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+</style>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        $(document).on('click', '.favourite-toggle', function () {
+            var $this = $(this);
+            var productId = $this.data('product-id');
+            var productCard = $this.closest('.col'); // Ensure this points to the correct product card element
+
+            $.ajax({
+                url: '@Url.Action("Favourite", "Product")',
+                type: 'POST',
+                data: { productId: productId },
+                success: function (response) {
+                    if (response.isFavorited) {
+                        // Change the heart icon to filled and red
+                        $this.find('i').removeClass('bi-heart').addClass('bi-heart-fill text-danger');
+                        Swal.fire({
+                            position: "top-end",
+                            icon: "success",
+                            title: "Added to Favorites",
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+
+                        // Cache the state in localStorage
+                        localStorage.setItem('favorite-' + productId, 'true');
+                    } else {
+                        // Change the heart icon back to empty
+                        $this.find('i').removeClass('bi-heart-fill text-danger').addClass('bi-heart');
+                        Swal.fire({
+                            position: "top-end",
+                            icon: "success",
+                            title: "Removed from Favorites",
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+
+                        // Remove from cache
+                        localStorage.removeItem('favorite-' + productId);
+
+                        // If on "My Favorites" page, remove the product card immediately
+                        if (window.location.pathname.includes("GetFavs") && productCard) {
+                            productCard.remove(); // Remove product card from the page
+                        }
+                    }
+                },
+                error: function () {
+                    Swal.fire({
+                        position: "top-end",
+                        icon: "error",
+                        title: "Something went wrong!",
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+                }
+            });
+        });
+
+         $(document).ready(function () {
+            $('.favourite-toggle').each(function () {
+                var $this = $(this);
+                var productId = $this.data('product-id');
+                if (localStorage.getItem('favorite-' + productId)) {
+                    $this.find('i').removeClass('bi-heart').addClass('bi-heart-fill text-danger');
+                }
+            });
+        });
+    </script>
+}

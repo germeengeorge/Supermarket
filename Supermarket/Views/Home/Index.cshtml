@@ -1,0 +1,142 @@
+﻿﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+     <div style="width: 100vw; margin-left: calc(-50vw + 50%)">
+        <header class="hero-section mb-5 banner">
+
+            <!-- Overlay -->
+            <div class="overlay position-absolute top-0 left-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.4);"></div>
+            <!-- Content -->
+            <div class="content position-relative text-white z-index-1">
+                <h1 class="display-1 font-weight-bold">Welcome to Fresh Supermarket</h1>
+                <p class="fs-3 mt-3" style="letter-spacing:0.4rem">SHOPPING MADE EASY</p>
+            </div>
+
+            <!-- Features Section at the bottom-right -->
+            <div class="position-absolute bottom-0 end-0 m-1 p-2" style="background-color: #65a844; text-align: center; color: white ;width: 300px;">
+                <i class="fas fa-sync-alt" style="font-size: 2rem;"></i>
+                <h3 class="fw-bold mt-2">Home of fresh groceries</h3>
+                <p>Fresh Products Every Day.</p>
+            </div>
+
+        </header>
+
+       
+
+    </div>
+
+
+	<div>
+	@* <iframe src="@Url.Action("Pagination", "Category")" width="100%" height="1200px"></iframe> *@
+	</div> 
+
+	@* Show Categories as Pagination *@
+	 <div id="pagination-container"></div> 
+
+</div>
+<style>
+    body{
+        background-color:#f9f9f9
+    }
+    .banner{
+        background-image: url('@Url.Content("~/img/banner.jpg")'); background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        
+    }
+    #category-carousel {
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
+        #category-carousel::-webkit-scrollbar {
+            display: none; /* Hide scrollbar */
+        }
+
+    .category-card {
+        border:1px solid #f9f9f9;
+        background-color: white; /* Light gray background for the square */
+        width: 250px; /* Fixed width for square */
+        height: 300px; /* Fixed height for square */
+        display: flex;
+        align-items: center; /* Center image vertically */
+        justify-content: center; /* Center image horizontally */
+        border-radius: 10px; /* Optional: Slightly rounded corners */
+        position: relative; /* Enables positioning for child elements */
+        overflow: hidden; /* Ensures content stays within the square */
+        transition: transform 2.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+
+    .category-image {
+        max-width: 100%; /* Scale image to fit */
+        max-height: 100%; /* Scale image to fit */
+        border-radius: 5px; /* Slightly round the image corners */
+    }
+
+    .category-name {
+        position: absolute; /* Position the name within the square */
+        bottom: 15px; /* Place it at the bottom */
+        width: 85%; /* Stretch across the entire width of the square */
+        background-color: #ddd; /* White background for rectangle */
+         text-align: center; /* Center the text */
+        font-size: 18px;
+        color: #1c1c1c;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 10px 0 8px;
+        background: #ddd;
+        display: block;
+    }
+
+        
+
+    .ViewButton{
+        background-color: #6BB255;
+        color: white;
+        padding: 7px 20px;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        cursor:pointer;
+     }
+
+        .btn-primary:hover {
+            background-color: #6BB255; /* Ensures no color change on hover */
+            color: white; /* Keeps the text color consistent */
+        }
+
+</style>
+@section Scripts
+{
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$.ajax({
+				url: '@Url.Action("Pagination", "Category")',
+				success: function (result) {
+					var htmlContent = $(result).find("#pagination-content").html();
+
+					$("#pagination-container").html(htmlContent);
+
+					console.log(htmlContent);
+
+					// Extract and execute inline scripts from Pagination content
+					var scripts = $(result).filter("script");
+					scripts.each(function () {
+						$.globalEval(this.text); // Dynamically run each script
+					});
+
+				}
+			});
+		});
+	</script>
+}
