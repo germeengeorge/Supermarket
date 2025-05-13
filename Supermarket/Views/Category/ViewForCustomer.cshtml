@@ -1,0 +1,63 @@
+﻿@model List<Category>
+@using Supermarket.RolesAndEmailSender
+
+<div class="card border-0 my-4">
+    <div class="card-header bg-body bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-start">
+                <h2 class="text-dark py-2">All categories</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        
+       
+
+    <div class="container" >
+             <div class="row row-cols-4 g-4 pb-3">
+                @foreach (var category in Model)
+            {
+                  <div class="menu-item">
+                      	<a asp-controller="Product" asp-action="FindByCategory" asp-route-categoryId="@category.id" class="d-block text-decoration-none">
+                        <img src="/img/@category.logoUrl" alt="@category.Name" class="img-fluid">
+                        <h3>@category.Name</h3>
+                        </a>
+                    </div>
+            }
+        </div>
+    </div>
+</div>
+</div>
+
+ <style>
+   
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        color: #000;
+        line-height: 1.6;
+    }
+
+    .menu-item {
+        background-color: white;
+        text-align: center;
+         transition: transform 0.3s ease;
+         border-radius:5px;
+        display: flex;  
+        flex-direction: row;
+    }
+
+       
+
+        .menu-item img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 17px;
+        }
+
+        .menu-item h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+</style>

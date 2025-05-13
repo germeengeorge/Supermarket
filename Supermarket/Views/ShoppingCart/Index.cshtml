@@ -1,0 +1,64 @@
+﻿
+ @model ShoppingCartVM
+
+<section class="h-100">
+    <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-10">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 class="fw-normal mb-0 fw-bold">Shopping Cart</h3>
+                </div>
+
+                @foreach (var item in Model.ShoppingCartList)
+                {
+                    <div class="card rounded-3 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="col-md-2 col-lg-2 col-xl-2">
+                                    <img src="/img/@item.Product.imgURL" class="img-fluid rounded-3" alt="@item.Product.Name"
+                                         style="aspect-ratio: 1 / 1; height: auto; max-height: 100px; object-fit: contain; background-color: white;">
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-3">
+                                    <p class="lead fw-normal mb-2">@item.Product.Name</p>
+                                    <p>
+                                        <span class="text-muted">Description:</span>
+                                        @Html.Raw(item.Product.Description)
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                    <a asp-action="Minus" asp-route-cartId="@item.Id" class="btn btn-link px-2">
+                                        <i class="fas fa-minus"></i>
+                                    </a>
+                                    <input id="form1" min="0" name="quantity" value="@item.quantity" type="number" class="form-control form-control-sm" />
+                                    <a asp-action="Plus" asp-route-cartId="@item.Id" class="btn btn-link px-2">
+                                        <i class="fas fa-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h5 class="mb-0"> EGP @item.Product.price.ToString("F2")</h5>
+                                </div>
+                                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                    <a asp-action="Remove" asp-route-cartId="@item.Id" class="text-danger">
+                                        <i class="fas fa-trash fa-lg"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="d-flex justify-content-between align-items-center">
+                            <span>Total (EGP)</span>
+                            <span>@Model.OrderHeader.OrderTotal.ToString("F2")</span>
+                        </h5>
+                        <div class="col-md-2 offset-md-5">
+                            <a asp-action="Summary" class="btn btn-outline-success border-1 bg-gradient w-200 py-2">Summary</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

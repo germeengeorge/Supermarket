@@ -1,0 +1,9 @@
+
+# Ignore IDE and build folders
+.vs/
+.idea/
+bin/
+obj/
+*.user
+*.suo
+

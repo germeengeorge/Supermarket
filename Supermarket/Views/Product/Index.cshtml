@@ -1,0 +1,193 @@
+﻿@model List<Product>
+@using Supermarket.RolesAndEmailSender
+
+
+
+<div class="card border-0" style="margin-top:100px">
+    <div class="card-header bg-body bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-start">
+                <h2 class="text-dark py-2">Products</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6">
+            </div>
+            @if (User.IsInRole(SD.Role_Admin))
+            {
+                <div class="col-6 text-end">
+                    <a asp-controller="Product" asp-action="Create" class="btn btn-outline-success">
+                        <i class="bi bi-plus-circle"></i>  Create New Product
+                    </a>
+                </div>
+            }
+        </div>
+        <form asp-controller="Product" asp-action="Index" method="get" style="margin-bottom:20px">
+            <div class="container">
+                <div class="row height d-flex justify-content-center align-items-center">
+                    <div class="col-md-8">
+                        <div class="search d-flex align-items-center">
+                            <input type="text" name="search" class="form-control" placeholder="Searching For Product?">
+                            <button type="submit" class="btn btn-outline-primary ms-2">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 pb-3 align-items-center">
+                @foreach (var product in Model)
+                {
+                    <div class="col">
+                        <div class="card border-0 p-3 border-5 rounded cardHover">
+                            <!-- Card Link -->
+                            <a asp-action="Details" asp-route-id="@product.Id" class="card-link text-decoration-none text-dark">
+                                @{
+                                    List<Category> categories = ViewBag.Categories as List<Category>;
+                                    string categoryName = "";
+                                    if (categories != null)
+                                    {
+                                        var category = categories.FirstOrDefault(c => c.id == product.CategoryId);
+                                        if (category != null)
+                                        {
+                                            categoryName = category.Name;
+                                        }
+                                    }
+                                }
+                                <img src="~/img/@product.imgURL"
+                                class="card-img-top rounded img-fluid"
+                                alt="@product.Name"
+                                style="height:150px;aspect-ratio: 1 / 1; object-fit: contain; background-color: white;">
+
+                                <div class="mt-2 text-center">
+                                    <p class="card-title h6 text-dark opacity-75">@categoryName</p>
+                                </div>
+
+                                <div class="card-body pb-0 text-center">
+                                    <p class="card-title h5 text-capitalize">@product.Name</p>
+                                </div>
+                                <div class="card-body pb-0 text-center">
+                                    <p class="card-title h6" style="color:gray">@product.Description</p>
+                                </div>
+                                <div class="card-body pb-0 text-center">
+                                    <p class="card-title h6" style="color:darkorange"> EGP @product.price.ToString("F2")</p>
+                                </div>
+                            </a>
+
+                           
+                           
+                            <div class="container">
+                                <div class="row mt-2 mb-1 align-items-center justify-content-center">
+                                    <!-- Quantity Input -->
+                                    <div class="col-3 p-0 text-center">
+                                        <input id="productQuantity-@product.Id" name="quantity" type="number" value="1"
+                                               class="form-control text-center" min="1" />
+                                    </div>
+
+                                    <!-- Add to Cart Button -->
+                                    <div class="col-7 px-1">
+                                        <a href="javascript:void(0)"
+                                           onclick="addToCart(@product.Id, 'productQuantity-@product.Id')"
+                                           class="btn btn-success bg-gradient form-control d-flex align-items-center justify-content-center border-0 text-capitalize">
+                                            <i class="bi bi-cart3 me-2 mb-2"></i>
+                                            ADD to Cart
+                                        </a>
+                                    </div>
+
+
+                                     <div class="col-2 p-0 text-center border py-1 rounded">
+                                        <a href="javascript:void(0)" class="favourite-toggle" data-product-id="@product.Id">
+                                            <i class="bi @(product.IsFavorited ? "bi-heart-fill text-danger" : "bi-heart") h4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                @if (User.IsInRole(SD.Role_Admin))
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-12">
+                                            <div class="btn-group w-100" role="group">
+                                                <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-success w-50">
+                                                    <i class="bi bi-pencil-square"></i> Edit
+                                                </a>
+                                                <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id" class="btn btn-outline-danger w-50">
+                                                    <i class="bi bi-trash-fill"></i> Delete
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+.cardHover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardHover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+ </style>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+            function addToCart(productId, quantityInputId) {
+            const quantity = document.getElementById(quantityInputId).value;
+            const url = `/Product/AddToCart?id=${productId}&quantity=${quantity}`;
+            window.location.href = url;
+        }
+        $(document).on('click', '.favourite-toggle', function () {
+            var $this = $(this);
+            var productId = $this.data('product-id');
+            var productCard = $("#favorite-" + productId); // Define productCard inside the function
+
+            $.ajax({
+                url: '@Url.Action("Favourite", "Product")',
+                type: 'POST',
+                data: { productId: productId },
+                success: function (response) {
+                    if (response.isFavorited) {
+                        $this.find('i').removeClass('bi-heart').addClass('bi-heart-fill text-danger');
+                        console.log("Added to Favorites"); // Silent log
+                        localStorage.setItem('favorite-' + productId, 'true');
+                    } else {
+                        $this.find('i').removeClass('bi-heart-fill text-danger').addClass('bi-heart');
+                        console.log("Removed from Favorites"); // Silent log
+                        localStorage.removeItem('favorite-' + productId);
+                    }
+
+                    // If on "My Favorites" page, remove the product card
+                    if (window.location.pathname.includes("GetFavs") && productCard) {
+                        productCard.remove();
+                    }
+                },
+                error: function () {
+                    console.error("Something went wrong!");
+                }
+            });
+        });
+
+        // On page load, restore favorite states
+        $(document).ready(function () {
+            $('.favourite-toggle').each(function () {
+                var $this = $(this);
+                var productId = $this.data('product-id');
+                if (localStorage.getItem('favorite-' + productId)) {
+                    $this.find('i').removeClass('bi-heart').addClass('bi-heart-fill text-danger');
+                }
+            });
+        });
+    </script>
+}

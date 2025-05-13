@@ -1,0 +1,47 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav d-flex align-items-center">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        @* @if (UserManager.GetUserAsync(User).Result.profilepic != null)
+        {
+            <img class="rounded-circle" alt=" pic" src="data:image/*;base64,@(Convert.ToBase64String(UserManager.GetUserAsync(User).Result.profilepic))"
+                 style="height:40px;width:40px;object-fit:cover" />
+
+        } *@
+        <ul class="navbar-nav ms-auto d-flex flex-row align-items-center gap-2">
+            <li class="nav-item">
+                <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                    @UserManager.GetUserName(User)
+                </a>
+            </li>
+            <li class="nav-item">
+                <form id="logoutForm" class="d-inline" asp-area="Identity" asp-page="/Account/Logout"
+                      asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <button id="logout" type="submit" class="nav-link text-dark btn btn-link p-0 d-flex align-items-center text-capitalize">
+                        <i class="bi bi-box-arrow-in-left me-1"></i> Logout
+                    </button>
+                </form>
+            </li>
+        </ul>
+
+         @*    <a class="nav-link text-dark d-flex align-items-center" id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <i class="bi bi-box-arrow-in-left me-1"></i>Logout
+            </a> *@
+       
+    }
+    else
+    {
+        <li class="nav-item d-flex align-items-center">
+            <a class="nav-link text-dark d-flex align-items-center" id="register" asp-area="Identity" asp-page="/Account/Register">
+                <i class="bi bi-person-plus me-1"></i> Register
+            </a>
+            <span class="mx-1">|</span>
+            <a class="nav-link text-dark d-flex align-items-center" id="login" asp-area="Identity" asp-page="/Account/Login">
+                <i class="bi bi-box-arrow-in-right me-1"></i> Login
+            </a>
+        </li>
+    }
+</ul>

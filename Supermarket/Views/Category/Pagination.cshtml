@@ -1,0 +1,116 @@
+﻿@model List<Category>
+@using Supermarket.RolesAndEmailSender
+
+<div class="container mt-4" id="pagination-content">
+	<div class="d-flex justify-content-between align-items-center">
+		<h2>Category</h2>
+		<div class="d-flex align-items-center">
+
+		@if (User.IsInRole(SD.Role_Admin))
+		{
+				<a asp-controller="Category" asp-action="Index" class="me-2 ViewButton">View All</a>
+		}
+		else{
+			<a asp-controller="Category" asp-action="Index2" class="me-2 ViewButton">View All</a>
+		}
+			<button class="btn btn-light me-2" id="prev-btn">
+				<i class="bi bi-chevron-left"></i>
+			</button>
+			<button class="btn btn-light" id="next-btn">
+				<i class="bi bi-chevron-right"></i>
+			</button>
+		</div>
+	</div>
+
+	<div id="category-carousel" class="d-flex overflow-hidden mt-3">
+		<div class="row flex-nowrap mt-3">
+			@foreach (var category in Model)
+			{
+				<div class="col-auto text-center mx-2">
+					<a asp-controller="Product" asp-action="FindByCategory" asp-route-categoryId="@category.id" class="d-block text-decoration-none">
+						<div class="category-card">
+							<img src="/img/@category.logoUrl"
+								 alt="@category.Name"
+								 class="category-image">
+							<div class="category-name">@category.Name</div>
+						</div>
+					</a>
+				</div>
+
+				
+
+			}
+		</div>
+	</div>
+
+	
+</div>
+<style>
+	.col-auto {
+		overflow: visible;
+	}
+	#category-carousel {
+		overflow-x: auto;
+		scroll-behavior: smooth;
+	}
+
+	#category-carousel::-webkit-scrollbar {
+		display: none; /* Hide scrollbar */
+	 } 
+
+	 img.round {
+		transition: transform 0.2s ease-in-out;
+	}
+
+	img.round:hover {
+			transform: scale(1.05) !important;
+	}
+
+	.btn-primary {
+ 		background-color: #6BB255; /* Correct background color */
+		color: white; /* Text color for better contrast */
+		padding: 10px 20px; /* Added padding for better appearance */
+		text-decoration: none; /* Removed underline for links */
+		display: inline-block; /* Makes it look like a button */
+		border-radius: 5px; /* Rounded corners for a modern look */
+		font-size: 16px; /* Font size for readability */
+		cursor: pointer; /* Indicates the button is clickable */
+	}
+
+ 
+</style>
+
+@section Scripts{
+	<script>
+		function initializeCarousel() {
+			const prevBtn = document.getElementById('prev-btn');
+			const nextBtn = document.getElementById('next-btn');
+			const categoryCarousel = document.getElementById('category-carousel');
+
+			if (prevBtn && nextBtn && categoryCarousel) {
+				prevBtn.addEventListener('click',
+					function() {
+						categoryCarousel.scrollBy({
+							left: -150, // Adjust based on the width of your items
+							behavior: 'smooth'
+						});
+					});
+
+				nextBtn.addEventListener('click',
+					function() {
+						categoryCarousel.scrollBy({
+							left: 150, // Adjust based on the width of your items
+							behavior: 'smooth'
+						});
+					});
+			}
+		}
+
+		// Call this to initialize the buttons on page load
+		// AJAX to load content dynamically
+		$(document).ready(function () {
+			initializeCarousel();  // This will work when content is loaded
+		});
+
+	</script>
+}
