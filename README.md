@@ -7,6 +7,8 @@ Implemented robust authentication and authorization using ASP.NET Core Identity,
 
 The application supports both user-driven online orders and admin-processed local orders, allowing administrators to manage orders on behalf of local customers while ensuring real-time synchronization with the central database for operational efficiency
 
+The application uses Docker to simplify development, testing, and deployment. A multi-stage Dockerfile is used to build and publish the ASP.NET Core 8 web application, creating a lightweight and secure production-ready image. Docker Compose is used to define and run multi-container services, including the web application, SQL Server, Redis (optional), and RabbitMQ (optional). This setup ensures all components work together seamlessly within a consistent and isolated Docker environment.
+
 # Technologies used 
 C#
 
@@ -23,6 +25,8 @@ Repository Design pattern
 ASP.Net Identity
 
 Stripe payment
+
+Docker
 
 HTML
 
