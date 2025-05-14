@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y9/kxVQmrmM=",
+  "dgSpecHash": "GyOJuU9Drf4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\Supermarket.csproj",
+  "projectFilePath": "E:\\Supermarket\\Supermarket\\Supermarket.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\germe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\germe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

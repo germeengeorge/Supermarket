@@ -1,855 +1,855 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Supermarket.bundle.scp.css",
+      "Id": "E:\\Supermarket\\Supermarket\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Supermarket.bundle.scp.css",
       "PackagePath": "staticwebassets\\Supermarket.g67ltzaoov.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\Peas.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\Peas.jpg",
       "PackagePath": "staticwebassets\\ProductImages\\Peas.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\apples.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\apples.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\apples.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\banana.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\banana.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\banana.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\banana.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\banana.jpg",
       "PackagePath": "staticwebassets\\ProductImages\\banana.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\banana2.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\banana2.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\banana2.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\blueberry1.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\blueberry1.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\blueberry1.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\bnd2.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\bnd2.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\bnd2.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\bondo2.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\bondo2.webp",
       "PackagePath": "staticwebassets\\ProductImages\\bondo2.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\cago.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\cago.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\cago.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\cago.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\cago.webp",
       "PackagePath": "staticwebassets\\ProductImages\\cago.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\cherry.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\cherry.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\cherry.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\coffe1.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\coffe1.webp",
       "PackagePath": "staticwebassets\\ProductImages\\coffe1.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\images.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\images.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\images.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\logo.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\logo.jpg",
       "PackagePath": "staticwebassets\\ProductImages\\logo.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\oil4.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\oil4.jpg",
       "PackagePath": "staticwebassets\\ProductImages\\oil4.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\pasta.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\pasta.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\pasta.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\pasta2.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\pasta2.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\pasta2.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\peach.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\peach.webp",
       "PackagePath": "staticwebassets\\ProductImages\\peach.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\pistachios.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\pistachios.webp",
       "PackagePath": "staticwebassets\\ProductImages\\pistachios.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\tomato.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\ProductImages\\tomato.jpeg",
       "PackagePath": "staticwebassets\\ProductImages\\tomato.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\css\\site.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\favicon.ico",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\Onions_Red-1-1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\Onions_Red-1-1.jpg",
       "PackagePath": "staticwebassets\\img\\Onions_Red-1-1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\Peas.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\Peas.jpg",
       "PackagePath": "staticwebassets\\img\\Peas.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\Potato.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\Potato.jpg",
       "PackagePath": "staticwebassets\\img\\Potato.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\Red-Pepper.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\Red-Pepper.jpg",
       "PackagePath": "staticwebassets\\img\\Red-Pepper.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\Rumi-eggplant-1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\Rumi-eggplant-1.jpg",
       "PackagePath": "staticwebassets\\img\\Rumi-eggplant-1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\SnackCucumber.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\SnackCucumber.jpg",
       "PackagePath": "staticwebassets\\img\\SnackCucumber.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\apple.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\apple.jpeg",
       "PackagePath": "staticwebassets\\img\\apple.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\apples.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\apples.jpeg",
       "PackagePath": "staticwebassets\\img\\apples.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\banana.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\banana.jpeg",
       "PackagePath": "staticwebassets\\img\\banana.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\banana.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\banana.jpg",
       "PackagePath": "staticwebassets\\img\\banana.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\banana2.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\banana2.jpeg",
       "PackagePath": "staticwebassets\\img\\banana2.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\banner.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\banner.jpg",
       "PackagePath": "staticwebassets\\img\\banner.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\blueberry.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\blueberry.jpeg",
       "PackagePath": "staticwebassets\\img\\blueberry.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\blueberry1.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\blueberry1.jpeg",
       "PackagePath": "staticwebassets\\img\\blueberry1.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\bnd2.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\bnd2.jpeg",
       "PackagePath": "staticwebassets\\img\\bnd2.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\bondo2.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\bondo2.webp",
       "PackagePath": "staticwebassets\\img\\bondo2.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\cabbage-1-1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\cabbage-1-1.jpg",
       "PackagePath": "staticwebassets\\img\\cabbage-1-1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\cago.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\cago.jpeg",
       "PackagePath": "staticwebassets\\img\\cago.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\cago.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\cago.webp",
       "PackagePath": "staticwebassets\\img\\cago.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\cans.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\cans.jpeg",
       "PackagePath": "staticwebassets\\img\\cans.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\carrot.png",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\carrot.png",
       "PackagePath": "staticwebassets\\img\\carrot.png"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\ch1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\ch1.jpg",
       "PackagePath": "staticwebassets\\img\\ch1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\ch2.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\ch2.jpg",
       "PackagePath": "staticwebassets\\img\\ch2.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\ch3.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\ch3.jpg",
       "PackagePath": "staticwebassets\\img\\ch3.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\ch4.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\ch4.jpg",
       "PackagePath": "staticwebassets\\img\\ch4.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\ch5.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\ch5.jpg",
       "PackagePath": "staticwebassets\\img\\ch5.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\chcat.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\chcat.jpeg",
       "PackagePath": "staticwebassets\\img\\chcat.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\cherry.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\cherry.jpeg",
       "PackagePath": "staticwebassets\\img\\cherry.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\chocolate.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\chocolate.jpg",
       "PackagePath": "staticwebassets\\img\\chocolate.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffe.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffe.jpg",
       "PackagePath": "staticwebassets\\img\\coffe.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffe1.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffe1.webp",
       "PackagePath": "staticwebassets\\img\\coffe1.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffe2.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffe2.webp",
       "PackagePath": "staticwebassets\\img\\coffe2.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffe3.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffe3.webp",
       "PackagePath": "staticwebassets\\img\\coffe3.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffe4.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffe4.jpg",
       "PackagePath": "staticwebassets\\img\\coffe4.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffe5.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffe5.jpg",
       "PackagePath": "staticwebassets\\img\\coffe5.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffe6.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffe6.jpg",
       "PackagePath": "staticwebassets\\img\\coffe6.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffe7.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffe7.jpg",
       "PackagePath": "staticwebassets\\img\\coffe7.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffe8.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffe8.webp",
       "PackagePath": "staticwebassets\\img\\coffe8.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\coffecat.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\coffecat.jpeg",
       "PackagePath": "staticwebassets\\img\\coffecat.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\cu.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\cu.jpeg",
       "PackagePath": "staticwebassets\\img\\cu.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\defaultPic.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\defaultPic.jpg",
       "PackagePath": "staticwebassets\\img\\defaultPic.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drink1.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drink1.webp",
       "PackagePath": "staticwebassets\\img\\drink1.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drink2.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drink2.webp",
       "PackagePath": "staticwebassets\\img\\drink2.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drink3.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drink3.jpg",
       "PackagePath": "staticwebassets\\img\\drink3.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drink4.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drink4.jpg",
       "PackagePath": "staticwebassets\\img\\drink4.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drink5.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drink5.jpg",
       "PackagePath": "staticwebassets\\img\\drink5.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drink6.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drink6.jpg",
       "PackagePath": "staticwebassets\\img\\drink6.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drink7.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drink7.jpg",
       "PackagePath": "staticwebassets\\img\\drink7.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drink8.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drink8.jpg",
       "PackagePath": "staticwebassets\\img\\drink8.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drink9.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drink9.jpg",
       "PackagePath": "staticwebassets\\img\\drink9.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drinks.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drinks.jpg",
       "PackagePath": "staticwebassets\\img\\drinks.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\drinks.png",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\drinks.png",
       "PackagePath": "staticwebassets\\img\\drinks.png"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\fruits.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\fruits.jpeg",
       "PackagePath": "staticwebassets\\img\\fruits.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\fruits.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\fruits.jpg",
       "PackagePath": "staticwebassets\\img\\fruits.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\fsd2.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\fsd2.jpg",
       "PackagePath": "staticwebassets\\img\\fsd2.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\graps.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\graps.jpeg",
       "PackagePath": "staticwebassets\\img\\graps.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\jam1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\jam1.jpg",
       "PackagePath": "staticwebassets\\img\\jam1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\jam2.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\jam2.jpg",
       "PackagePath": "staticwebassets\\img\\jam2.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\jam3.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\jam3.jpg",
       "PackagePath": "staticwebassets\\img\\jam3.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\jam4.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\jam4.jpg",
       "PackagePath": "staticwebassets\\img\\jam4.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\jam5.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\jam5.jpg",
       "PackagePath": "staticwebassets\\img\\jam5.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\login1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\login1.jpg",
       "PackagePath": "staticwebassets\\img\\login1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\logo.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\logo.jpg",
       "PackagePath": "staticwebassets\\img\\logo.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\logo1.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\logo1.jpeg",
       "PackagePath": "staticwebassets\\img\\logo1.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\logoo2.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\logoo2.jpg",
       "PackagePath": "staticwebassets\\img\\logoo2.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\nuts.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\nuts.jpeg",
       "PackagePath": "staticwebassets\\img\\nuts.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\nuts.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\nuts.jpg",
       "PackagePath": "staticwebassets\\img\\nuts.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\oil1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\oil1.jpg",
       "PackagePath": "staticwebassets\\img\\oil1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\oil2.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\oil2.jpg",
       "PackagePath": "staticwebassets\\img\\oil2.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\oil3.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\oil3.jpg",
       "PackagePath": "staticwebassets\\img\\oil3.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\oil4.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\oil4.jpg",
       "PackagePath": "staticwebassets\\img\\oil4.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\oil5.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\oil5.jpg",
       "PackagePath": "staticwebassets\\img\\oil5.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\oils.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\oils.jpg",
       "PackagePath": "staticwebassets\\img\\oils.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\oilscat.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\oilscat.jpeg",
       "PackagePath": "staticwebassets\\img\\oilscat.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\orange.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\orange.jpg",
       "PackagePath": "staticwebassets\\img\\orange.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\organic-walnuts-raw.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\organic-walnuts-raw.webp",
       "PackagePath": "staticwebassets\\img\\organic-walnuts-raw.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pasrta3.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pasrta3.jpeg",
       "PackagePath": "staticwebassets\\img\\pasrta3.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pasta.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pasta.jpeg",
       "PackagePath": "staticwebassets\\img\\pasta.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pasta1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pasta1.jpg",
       "PackagePath": "staticwebassets\\img\\pasta1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pasta2.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pasta2.jpeg",
       "PackagePath": "staticwebassets\\img\\pasta2.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pasta4.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pasta4.jpeg",
       "PackagePath": "staticwebassets\\img\\pasta4.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pasta4.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pasta4.jpg",
       "PackagePath": "staticwebassets\\img\\pasta4.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pasta5.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pasta5.jpeg",
       "PackagePath": "staticwebassets\\img\\pasta5.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pasta6.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pasta6.jpg",
       "PackagePath": "staticwebassets\\img\\pasta6.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pasta7.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pasta7.jpg",
       "PackagePath": "staticwebassets\\img\\pasta7.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pastacat.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pastacat.jpg",
       "PackagePath": "staticwebassets\\img\\pastacat.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pastas.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pastas.jpg",
       "PackagePath": "staticwebassets\\img\\pastas.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\peach.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\peach.jpeg",
       "PackagePath": "staticwebassets\\img\\peach.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\peach.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\peach.webp",
       "PackagePath": "staticwebassets\\img\\peach.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\peanuts.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\peanuts.jpeg",
       "PackagePath": "staticwebassets\\img\\peanuts.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\peas-1-1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\peas-1-1.jpg",
       "PackagePath": "staticwebassets\\img\\peas-1-1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pepper.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pepper.jpeg",
       "PackagePath": "staticwebassets\\img\\pepper.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\phest.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\phest.jpeg",
       "PackagePath": "staticwebassets\\img\\phest.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pistachios.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pistachios.webp",
       "PackagePath": "staticwebassets\\img\\pistachios.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\pomegranates.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\pomegranates.jpg",
       "PackagePath": "staticwebassets\\img\\pomegranates.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\raw-organic-almonds.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\raw-organic-almonds.webp",
       "PackagePath": "staticwebassets\\img\\raw-organic-almonds.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\reg.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\reg.jpg",
       "PackagePath": "staticwebassets\\img\\reg.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\rice1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\rice1.jpg",
       "PackagePath": "staticwebassets\\img\\rice1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\rice2.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\rice2.jpg",
       "PackagePath": "staticwebassets\\img\\rice2.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\rice3.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\rice3.jpg",
       "PackagePath": "staticwebassets\\img\\rice3.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\riceCat.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\riceCat.jpeg",
       "PackagePath": "staticwebassets\\img\\riceCat.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\rices.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\rices.jpg",
       "PackagePath": "staticwebassets\\img\\rices.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\sauce1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\sauce1.jpg",
       "PackagePath": "staticwebassets\\img\\sauce1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\sauce2.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\sauce2.jpg",
       "PackagePath": "staticwebassets\\img\\sauce2.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\sauce3.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\sauce3.jpg",
       "PackagePath": "staticwebassets\\img\\sauce3.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\sauce4.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\sauce4.jpg",
       "PackagePath": "staticwebassets\\img\\sauce4.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\sauce5.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\sauce5.jpg",
       "PackagePath": "staticwebassets\\img\\sauce5.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\sauce6.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\sauce6.jpg",
       "PackagePath": "staticwebassets\\img\\sauce6.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\sauce7.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\sauce7.jpg",
       "PackagePath": "staticwebassets\\img\\sauce7.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\sauces.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\sauces.jpeg",
       "PackagePath": "staticwebassets\\img\\sauces.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\sauses.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\sauses.jpg",
       "PackagePath": "staticwebassets\\img\\sauses.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\snack1.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\snack1.webp",
       "PackagePath": "staticwebassets\\img\\snack1.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\snack2.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\snack2.webp",
       "PackagePath": "staticwebassets\\img\\snack2.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\snack3.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\snack3.webp",
       "PackagePath": "staticwebassets\\img\\snack3.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\snack4.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\snack4.webp",
       "PackagePath": "staticwebassets\\img\\snack4.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\snack5.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\snack5.jpg",
       "PackagePath": "staticwebassets\\img\\snack5.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\strawberry.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\strawberry.jpeg",
       "PackagePath": "staticwebassets\\img\\strawberry.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\tea2.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\tea2.jpg",
       "PackagePath": "staticwebassets\\img\\tea2.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\tea3.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\tea3.jpg",
       "PackagePath": "staticwebassets\\img\\tea3.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\tomato.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\tomato.jpeg",
       "PackagePath": "staticwebassets\\img\\tomato.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\tomato.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\tomato.jpg",
       "PackagePath": "staticwebassets\\img\\tomato.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\veget1.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\veget1.webp",
       "PackagePath": "staticwebassets\\img\\veget1.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\veget3.webp",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\veget3.webp",
       "PackagePath": "staticwebassets\\img\\veget3.webp"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\veget4.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\veget4.jpeg",
       "PackagePath": "staticwebassets\\img\\veget4.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\veget5.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\veget5.jpg",
       "PackagePath": "staticwebassets\\img\\veget5.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\vegetables.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\vegetables.jpeg",
       "PackagePath": "staticwebassets\\img\\vegetables.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\vegetables.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\vegetables.jpg",
       "PackagePath": "staticwebassets\\img\\vegetables.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\watermelon-el-salam.jpeg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\watermelon-el-salam.jpeg",
       "PackagePath": "staticwebassets\\img\\watermelon-el-salam.jpeg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\img\\zucchini-qwasmi.-1.jpg",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\img\\zucchini-qwasmi.-1.jpg",
       "PackagePath": "staticwebassets\\img\\zucchini-qwasmi.-1.jpg"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\js\\site.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "E:\\Supermarket\\Supermarket\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {

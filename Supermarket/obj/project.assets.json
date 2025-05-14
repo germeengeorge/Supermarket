@@ -8565,11 +8565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\Supermarket.csproj",
+      "projectUniqueName": "E:\\Supermarket\\Supermarket\\Supermarket.csproj",
       "projectName": "Supermarket",
-      "projectPath": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\Supermarket.csproj",
+      "projectPath": "E:\\Supermarket\\Supermarket\\Supermarket.csproj",
       "packagesPath": "C:\\Users\\germe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\germe\\OneDrive\\Desktop\\Supermarket\\Supermarket\\obj\\",
+      "outputPath": "E:\\Supermarket\\Supermarket\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

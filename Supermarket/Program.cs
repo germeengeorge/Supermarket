@@ -15,6 +15,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
+builder.WebHost.UseUrls("http://0.0.0.0:5000");
+
+
 //New one
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders().AddDefaultUI();
 
