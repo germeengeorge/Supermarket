@@ -1,0 +1,49 @@
+version: "3.8"
+services:
+  supermarket:
+    image: 1522004/supermarket:v1.0.0   
+    container_name: supermarket-app
+    ports:
+      - "5001:5000" 
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5000  
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=ECommerce;User Id=sa;Password=Germeen123#;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+      - redis
+      - rabbitmq
+    networks:
+      - supermarket-network
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Germeen123#
+      - MSSQL_PID=Developer
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    networks:
+      - supermarket-network
+
+  redis:
+    image: redis:latest
+    container_name: redis-cache
+    networks:
+      - supermarket-network
+
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq-service
+    networks:
+      - supermarket-network
+
+volumes:
+  sqlserver-data: 
+
+networks:
+  supermarket-network:
